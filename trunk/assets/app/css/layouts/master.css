@@ -1,0 +1,7 @@
+body {margin: 0 auto}
+
+#main-wrapper {width: 960px; margin: auto; background-color: #ffffff;}
+
+#main {width: 660px; float: left}
+
+#sidebar {width: 300px; float: left;}
