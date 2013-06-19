@@ -1,0 +1,1 @@
+<span>User view</span>
