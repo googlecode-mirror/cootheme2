@@ -14,8 +14,11 @@ class ErrorController extends Coo_Controller_BaseController {
     }
 
     public function index($params=null) {
-        echo "404 Not found! <br><hr>The resource you requested is not found on this server";
+        $this->e404();
     }
 
-
+    private function e404() {
+        $data = array('title' => '404 not found');
+        View::render('404.view.php', $data);
+    }
 }
