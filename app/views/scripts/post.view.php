@@ -1,0 +1,1 @@
+<div class="wrapper">Main content</div>
