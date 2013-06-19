@@ -115,7 +115,7 @@ class PostModel extends Coo_Mvc_Model_BaseModel {
     }
 
     public function getById($id, $getComment = false){
-        return $this->get('page_id='.$id, $getComment);
+        return $this->get('p='.$id, $getComment);
     }
 
     public function getBySlug($slug, $getComment = false){
