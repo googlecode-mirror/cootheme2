@@ -1,7 +1,21 @@
 body {margin: 0 auto}
+#header{
+    background-color: blue;
+}
 
-#main-wrapper {width: 960px; margin: auto; background-color: #ffffff;}
+#navibar{
+    background-color: #808080;
+}
 
-#main {width: 660px; float: left}
+#main{
+    background-color: green;
+}
 
-#sidebar {width: 300px; float: left;}
+#sidebar{
+    background-color: yellowgreen;
+}
+
+#footer {
+    background-color: palegoldenrod;
+}
+

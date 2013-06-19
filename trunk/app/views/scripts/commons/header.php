@@ -3,8 +3,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title><?php echo $title; ?></title>
+    <link rel="stylesheet" type="text/css" href="<?php echo TemplateHelper::getTwitterBootstrapUrl();?>css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo TemplateHelper::getTwitterBootstrapUrl();?>css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo TemplateHelper::getLayoutStyleUrl();?>" />
 </head>
 <body>
-    <div id="main-wrapper">
-        <div id="header">Header</div>
+    <div class="container">
+        <div class="row">
+            <div class="span10">
+                <div id="header">Header</div>
+            </div> <!-- end of span10 -->

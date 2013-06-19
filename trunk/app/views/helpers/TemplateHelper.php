@@ -17,4 +17,8 @@ class TemplateHelper {
         $layout = View::layout(null);
         return bloginfo('template_url') . '/assets/app/css/layouts/' . $layout . '.css';
     }
+
+    public static function getTwitterBootstrapUrl() {
+        return bloginfo('template_url') . '/assets/vendor/bootstrap/twitter/';
+    }
 }
